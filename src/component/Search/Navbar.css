@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Oleo Script Swash Caps';
+    src: url('/file-font/Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/file-font/Inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+}
+.Navbar{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+.logo .firstlogo{
+    font-family: 'Oleo Script Swash Caps';
+    margin-left: 30px;
+    font-size: 64px;
+    color: #00CA18;
+}
+.logo > .secondlogo{
+    font-family: 'Oleo Script Swash Caps';
+    font-size: 64px;
+    color: #1CCBBC;
+}
+.button_space {
+    display: flex;
+    margin-left: 680px;
+}
+.button_space .button{
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 15px;
+    padding-right: 34px;
+}
+.log_re{
+    font-weight: 600;   
+    font-family: 'Inter';
+    font-size: 15px;
+    display: flex;
+}
+.line{
+    padding: 0px 8px;
+}
+

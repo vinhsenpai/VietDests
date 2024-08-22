@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Itim';
+    src: url(/file-font/Itim/Itim-Regular.ttf);
+}
+.text-member{
+    font-size: 70px;
+    font-family: 'Itim';
+    text-align: center;
+}
+.member{
+    margin-top: 120px;
+} 
+.image-member{
+    display: flex;
+    justify-content: center;
+}
+.image_6{
+    width:305px;
+    height: 400px;
+    margin-right: 100px;
+} 
+.image_7{
+    width:305px;
+    height: 400px;
+}
+.image_8{
+    width:305px;
+    height: 400px;
+    margin-left: 100px;
+}
+.member-info{
+    display: flex;
+    justify-content: center;
+    font-family: 'Itim';
+    font-size: 20px;
+}
+.member_1{
+    width: 300px;
+    text-align: center;
+    margin-right: 110px;
+}
+.member_2{
+    width:300px;
+    text-align: center;
+    margin-left: 110px;
+}
+.leader{
+    width:300px;
+    text-align: center;
+}

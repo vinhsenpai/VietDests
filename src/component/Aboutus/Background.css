@@ -1,0 +1,38 @@
+.background{
+    width: 100%;
+}
+.img{
+    width: 100%;
+}
+.image_1{
+    width: 226px;
+    height: 192px;
+    margin-top: 326px;
+    margin-left: 180px;
+    position: absolute;
+    border: 0.5px solid gainsboro;
+}
+.image_2{
+    width: 192px;
+    height: 251px;
+    margin-top: 296px;
+    margin-left: 510px;
+    position: absolute;
+    border: 0.5px solid gainsboro;
+}
+.image_3{
+    width: 298px;
+    height: 159px;
+    margin-top: 347px;
+    margin-left: 820px;
+    position: absolute;
+    border: 0.5px solid gainsboro;
+}
+.image_4{
+    width: 230px;
+    height: 180px;
+    margin-top: 335px;
+    margin-left: 1200px;
+    position: absolute;
+    border: 0.5px solid gainsboro;
+}

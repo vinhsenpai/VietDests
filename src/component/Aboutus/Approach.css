@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Itim';
+    src: url('/file-font/Itim/Itim-Regular.ttf');
+}
+.Approach{
+    margin-top: 150px;
+    margin-left: 180px;
+    position: relative  
+}
+.test{
+    width: 618px;
+    font-size: 70px;
+    font-family: 'Itim';
+    position: absolute;
+}
+.mini-test{
+    margin-top: 200px;
+    width: 618px;
+    font-size: 30px;
+    font-family: 'Itim';
+    position: absolute; 
+}
+.image_5{
+    width: 450px;
+    height: 430px;
+    margin-left: 800px;
+}
