@@ -11,7 +11,7 @@ function Home() {
                     <span className='secondlogo'>Dests</span>
                 </div>
                 <div className='button_space'>
-                    <Link to="/home"><p className='button'>HOME</p></Link>
+                    <Link to="/"><p className='button'>HOME</p></Link>
                     <Link to="/aboutus"><p className='button'>ABOUT US</p></Link>
                     <Link to="/search"><p className='button'>ALL TOURS</p></Link>
                     <div className='log_re'>

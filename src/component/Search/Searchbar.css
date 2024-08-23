@@ -1,0 +1,110 @@
+.search-space{
+    height: 153px;
+}
+.title-link{
+    padding-left: 170px;
+    padding-top:10px
+}
+.search-button{
+    padding-left: 170px;
+}
+.des-search{
+    width: 470px;
+    height: 80px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+.key-search{
+    width: 630px;
+    height: 80px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+.text-button-1{
+    margin-right: 350px;
+    padding-bottom: 35px;
+    border-radius: 10%;  
+}
+.text-button-2{
+    margin-right: 450px;
+    padding-bottom: 35px; 
+    border-radius: 10%;       
+}
+.button-search{
+    width: 100px;
+    height: 80px;
+    background-color: #1CCBBC;
+    position: absolute;
+    border-color: #1CCBBC;
+}
+.img-button{
+    width: 90px;
+    height: 80px;;
+}
+.body-space{
+    background-color: #C3F7E7;
+    width: 100%;
+    height: 1000px;
+    padding-bottom: 20px;
+}
+.tick-space{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 360px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 2%;
+}
+.type-text{
+    font-size: 25px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.tick-box{
+    display: flex;
+}
+.tick-button{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 22px;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+.tick-button-1{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 22px;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    border: 1px solid black;
+    background-image: url('/public/tick.png'); /* Đường dẫn tới ảnh */
+    background-size: cover; /* Đảm bảo ảnh lấp đầy toàn bộ button */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+}
+.tick-text{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+.sort-selection{
+    height: 100px;
+    background-color:#FFFFFF;
+    width: 920px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 50px;
+    display: flex;
+}
+.sort-text{
+    padding: 0px 36px;
+    padding-top: 10px;
+}
+.line-sort{
+   size: 50px;
+}
