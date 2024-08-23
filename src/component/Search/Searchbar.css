@@ -92,19 +92,91 @@
     font-weight: 500;
     font-family: 'Inter';
 }
+.tick-text:hover{
+    color: red;
+}
 .sort-selection{
     height: 100px;
     background-color:#FFFFFF;
     width: 920px;
-    position: absolute;
+    position:relative;
     margin-left: 450px;
-    margin-top: 50px;
+    top:50px;
     display: flex;
 }
 .sort-text{
     padding: 0px 36px;
     padding-top: 10px;
 }
+.sort-text:hover{
+    color: red;
+}
 .line-sort{
-   size: 50px;
+    line-height: 50px;
+    width: 20px;
+}
+.tour-pic-search{
+    width: 250px;
+    height: 190px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.tour-product{
+    display: flex;
+    width: 920px;
+    margin-left: 450px;
+    height: 220px;
+    position:relative;
+    top: 80px;
+    border: 1px solid white;
+    background-color: white;
+}
+.tour-info{
+    padding-left: 15px;
+}
+.tour-title{
+    font-size: 20px;
+    height: 20px;
+}
+.tour-title:hover{
+    text-decoration: underline;
+    color:red
+}
+.tour-available{
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #1206FB;
+}
+.border-rate{
+    background-color: #1A9EA8;
+    width: 40px ;
+    border-radius: 5%;
+    height: 30px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.rate{  
+    color: white;
+}
+.tour-rate{
+    display:flex;
+}
+.review-numb{
+    position: relative;
+    margin-top: 4px;
+    padding-left: 10px;
+}
+.tour-price{
+    text-align: right;
+    font-size: 35px;
+    color: red;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+.tour-space{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap:20px
 }
