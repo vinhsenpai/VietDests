@@ -19,13 +19,13 @@
     color: #00CA18;
 }
 .logo > .secondlogo{
-    font-family: 'Oleo Script Swash Caps';
+    font-family: 'Oleo Script Swash Caps';  
     font-size: 64px;
     color: #1CCBBC;
 }
-.button_space {
+.button_space{
     display: flex;
-    margin-left: 680px;
+    margin-left: 650px;
 }
 .button_space .button{
     font-weight: 600;

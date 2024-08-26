@@ -1,0 +1,52 @@
+.mienbac-head-image{
+    background-image: url('/public/mienbac.png');
+    background-size: cover; /* Đảm bảo ảnh lấp đầy toàn bộ button */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: antiquewhite;
+    padding-top: 0px;
+}
+.eng-text{
+    position: relative;
+    bottom: 100px;
+}
+.mienbac-city-selection-sort{
+    background-color: #C3F7E7;
+    height:1350px;
+}
+.divided-area{
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    border-radius: 8px;
+}
+.divided-area-title{
+    font-size: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+.button-city{
+    background-image: url('/public/button.png');
+    background-size: cover; /* Đảm bảo ảnh lấp đầy toàn bộ button */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    width: 200px;
+    height: 80px;
+    margin: 20px 20px;
+    font-size: 20px;
+    border: white;
+    background-color: white;
+}
+.button-city:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}

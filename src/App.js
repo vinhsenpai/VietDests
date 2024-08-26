@@ -4,6 +4,8 @@ import './index.css';
 import Aboutus from './component/Aboutus/Aboutus.js'
 import Home from './component/Home/Home.js'
 import Searchpage from './component/Search/Searchpage.js'
+import SignIn from './component/auth/Signin.jsx';
+import SignUp from './component/auth/Signup.jsx';
 
 function App() {                
     return (
@@ -12,8 +14,8 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/aboutus' element={<Aboutus />} />
             <Route path='/search' element={<Searchpage />} />
-            {/* <Route path="signin" element={<Signin />} />
-            <Route path="register" element={<Register />} /> */}
+            <Route path="signin" element={<SignIn />} />
+            <Route path="register" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     );
