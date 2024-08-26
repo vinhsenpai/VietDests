@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import Aboutus from './component/Aboutus/Aboutus.js'
@@ -14,10 +14,10 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/aboutus' element={<Aboutus />} />
             <Route path='/search' element={<Searchpage />} />
-            <Route path="signin" element={<SignIn />} />
-            <Route path="register" element={<SignUp />} />
+            <Route path="/signin" element={<SignIn />} />
+            <Route path="/signup" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
     );
 }
-export default App
+export default App;

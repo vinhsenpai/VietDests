@@ -51,7 +51,7 @@ function Navbar() {
                         <>
                             <Link to="/signin"><p>LOGIN</p></Link>
                             <p className='line'>&#124;</p>
-                            <Link to="/register"><p>REGISTER</p></Link>
+                            <Link to="/signup"><p>REGISTER</p></Link>
                         </>
                     )}
                 </div>

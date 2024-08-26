@@ -1,0 +1,179 @@
+/* Ensure the login container is centered body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+}*/
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-container {
+    box-shadow: 0px 4px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.login-container-2 {
+    flex: 1;
+    background: url('../images/rectangle_45.jpeg') 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-quote-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.login-quote {
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.login-container-6 {
+    flex: 1;
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 0 20px 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-logo {
+    font-family: "Oleo Script Swash Caps", cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-logo .login-dest {
+    color: #00ca18;
+}
+
+.login-logo .login-destt {
+    color: #1CCBBC;
+}
+
+.login-title {
+    font-family: 'Abhaya Libre ExtraBold', 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-welcome-back {
+    text-align: center;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    font-size: 1rem;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.login-email,
+.login-password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.login-rectangle-59,
+.login-rectangle-60 {
+    border-radius: 8px;
+    border: 1px solid #999999;
+    padding: 10px;
+    width: 100%;
+}
+
+.login-remember-me-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    font-size: 0.9rem;
+    color: #757575;
+}
+
+.login-account {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-another-method {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    color: #999999;
+}
+
+.login-social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.login-social-icons svg {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.login-social-icons svg:hover {
+    color: #007bff;
+}
+
+.login-new-user {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    color: #999999;
+}
+
+.login-email {
+    font-weight: bold;
+}
+
+.login-password {
+    font-weight: bold;
+}
