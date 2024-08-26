@@ -37,21 +37,21 @@ function Navbar() {
                 <span className='secondlogo'>Dests</span>
             </div>
             <div className='button_space'>
-                <Link to="/"><p className='button'>HOME</p></Link>
-                <Link to="/aboutus"><p className='button'>ABOUT US</p></Link>
-                <Link to="/search"><p className='button'>ALL TOURS</p></Link>
+                <Link to="/" className='no-underline'><p className='button'>HOME</p></Link>
+                <Link to="/aboutus" className='no-underline'><p className='button'>ABOUT US</p></Link>
+                <Link to="/search" className='no-underline'><p className='button'>ALL TOURS</p></Link>
                 <div className='log_re'>
                     {user ? (
                         <>
-                            <p>Welcome, {user.displayName || "User"}</p>
+                            <p>WELCOME, {user.displayName || "User"}</p>
                             <p className='line'>&#124;</p>
-                            <p onClick={handleLogout} className='button'>LOGOUT</p>
+                            <p onClick={handleLogout} className='logout-button'>LOGOUT</p>
                         </>
                     ) : (
                         <>
-                            <Link to="/signin"><p>LOGIN</p></Link>
+                            <Link to="/signin" className='no-underline'><p>LOGIN</p></Link>
                             <p className='line'>&#124;</p>
-                            <Link to="/signup"><p>REGISTER</p></Link>
+                            <Link to="/signup" className='no-underline'><p>REGISTER</p></Link>
                         </>
                     )}
                 </div>

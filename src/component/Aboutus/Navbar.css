@@ -32,7 +32,10 @@
     font-family: 'Inter';
     font-size: 15px;
     padding-right: 34px;
-    text-decoration: none;
+}
+.button_space .button:hover{
+    transform: scale(1.2);
+    color: #1CCBBC; 
 }
 .log_re{
     font-weight: 600;   
@@ -43,4 +46,10 @@
 .line{
     padding: 0px 8px;
 }
-
+.logout-button:hover{
+    transform: scale(1.2);
+    color: #1CCBBC;
+}
+.no-underline{
+    text-decoration: none;
+}

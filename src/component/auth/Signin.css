@@ -182,3 +182,7 @@ html {
     color: red;
     font-weight: 500;
 }
+.signin-button{
+    background-color: transparent; /* Màu nền trong suốt */
+    border: none; /* Xóa viền nút */
+}

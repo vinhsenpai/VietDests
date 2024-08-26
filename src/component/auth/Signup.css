@@ -1,13 +1,9 @@
-/* Ensure the login container is centered body,
-html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f7f7f7;
-}*/
-.login-page {
+@font-face {
+    font-family: 'Oleo Script Swash Caps';
+    src: url('../../../file-font/Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Bold.ttf') format('truetype');
+}
+
+.signup-page {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +12,7 @@ html {
     box-sizing: border-box;
 }
 
-.login-container {
+.signup-container {
     box-shadow: 0px 4px 10px 7px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     background: #FFFFFF;
@@ -30,23 +26,20 @@ html {
     position: relative;
 }
 
-.login-container-2 {
+.signup-container-2 {
     flex: 1;
-    background: url('../images/rectangle_45.jpeg') 50% / cover no-repeat;
+    background: url('../images/rectangle_63.jpeg') 50% / cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.login-quote-box {
+.signup-quote {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
     max-width: 80%;
     text-align: center;
-}
-
-.login-quote {
     color: #FFFFFF;
     font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
     font-weight: 600;
@@ -54,7 +47,7 @@ html {
     line-height: 1.5;
 }
 
-.login-container-6 {
+.signup-container-6 {
     flex: 1;
     padding: 40px;
     background: #FFFFFF;
@@ -65,29 +58,29 @@ html {
     justify-content: center;
 }
 
-.login-header {
+.signup-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.login-logo {
+.signup-logo {
     font-family: "Oleo Script Swash Caps", cursive;
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.login-logo .login-dest {
+.signup-logo .signup-dest {
     color: #00ca18;
 }
 
-.login-logo .login-destt {
+.signup-logo .signup-destt {
     color: #1CCBBC;
 }
 
-.login-title {
+.signup-create-new-account-title {
     font-family: 'Abhaya Libre ExtraBold', 'Roboto Condensed';
     font-weight: 800;
     font-size: 2rem;
@@ -95,40 +88,39 @@ html {
     margin-bottom: 10px;
 }
 
-.login-welcome-back {
-    text-align: center;
-    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
-    font-size: 1rem;
-    color: #757575;
-    margin-bottom: 30px;
-}
-
-.login-email,
-.login-password {
+.signup-email,
+.signup-password,
+.signup-confirm-password,
+.signup-firstname,
+.signup-lastname {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4E5251;
 }
 
-.login-rectangle-59,
-.login-rectangle-60 {
+.signup-rectangle-57,
+.signup-rectangle-58,
+.signup-rectangle-59,
+.signup-rectangle-60,
+.signup-rectangle-61 {
     border-radius: 8px;
     border: 1px solid #999999;
     padding: 10px;
     width: 100%;
 }
 
-.login-remember-me-forgot {
+.signup-container-3 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
-    font-size: 0.9rem;
-    color: #757575;
+    margin-top: 20px;
 }
 
-.login-account {
+.signup-create-account {
     width: 100%;
     padding: 10px;
     background-color: #000000;
@@ -136,44 +128,75 @@ html {
     font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
     border-radius: 8px;
     cursor: pointer;
+    border: none;
 }
 
-.login-another-method {
+.signup-already-have-an-account,
+.signup-another-method {
     display: block;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
     color: #999999;
 }
 
-.login-social-icons {
+.signup-social-icons {
     display: flex;
     justify-content: center;
 }
 
-.login-social-icons svg {
+.signup-social-icons svg {
     cursor: pointer;
     color: #333;
     transition: color 0.3s;
 }
 
-.login-social-icons svg:hover {
+.signup-social-icons svg:hover {
     color: #007bff;
 }
 
-.login-new-user {
-    display: block;
+.signup-ellipse-10,
+.signup-ellipse-11,
+.signup-ellipse-12 {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-rectangle-57,
+.signup-rectangle-58,
+.signup-rectangle-59,
+.signup-rectangle-60,
+.signup-rectangle-61 {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.signup-container-5 {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .signup-logo {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-logo {
+        font-size: 8vw;
+    }
+}
+.signup-error{
     text-align: center;
-    margin-top: 20px;
-    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
-    color: #999999;
-}
-
-.login-email {
-    font-weight: bold;
-}
-
-.login-password {
-    font-weight: bold;
+    color: red;
+    font-weight: 500;
 }

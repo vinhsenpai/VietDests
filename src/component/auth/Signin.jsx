@@ -107,11 +107,11 @@ const SignIn = () => {
                     <span className="login-another-method">Another Method</span>
                     <div className="login-social-icons">
                         <FaFacebook size={32} style={{ margin: "0 10px" }} />
-                        <button onClick={handleGoogleSignIn}><FaGoogle size={32} style={{ margin: "0 10px" }} /></button>
+                        <button onClick={handleGoogleSignIn} className='signin-button'><FaGoogle size={32} style={{ margin: "0 10px" }} /></button>
                         <FaTwitter size={32} style={{ margin: "0 10px" }} />
                     </div>
                     <span className="login-new-user">
-                        New user? <Link to="/signup"><a>Register</a></Link>
+                        New user? <Link to="/signup" className='no-underline'><a>Register</a></Link>
                     </span>
                 </div>
             </div>  

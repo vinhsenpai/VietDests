@@ -1,7 +1,8 @@
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import React, { useState } from 'react';
 import { auth } from '../../firebase';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import './Signup.css'
 
 const SignUp = () => {
     const [email, setEmail] = useState("");
@@ -29,11 +30,12 @@ const SignUp = () => {
                     navigate("/signin")
                 }).catch((error) => {
                     console.log("Error updating user profile:", error);
-                    setError("Fail to create your account")
+                    setError("Error update your profile")
                 });
             })
             .catch((error) => {
                 console.log("Error signing up:", error);
+                setError("Error create your account")
             });
     };
 
@@ -108,6 +110,8 @@ const SignUp = () => {
                                 <label htmlFor="confirm-password">Confirm Password</label>
                                 <input
                                     type="password"
+                                    value={confirmPassword}
+                                    onChange={(e) => setConfirmPassword(e.target.value)}
                                     id="confirm-password"
                                     name="confirm-password"
                                     className="signup-rectangle-61"
@@ -119,9 +123,10 @@ const SignUp = () => {
                                     Create Account
                                 </button>
                             </div>
+                            {error && <p className="signup-error">{error}</p>}
                         </form>
                         <span className="signup-already-have-an-account">
-                            Already have an account? <a href="#">Login</a>
+                            Already have an account? <Link to="/signin" className='no-underline'><a>Signin</a></Link>
                         </span>
                     </div>
                 </div>
