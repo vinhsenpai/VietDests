@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Oleo Script Swash Caps';
+    src: url('../../../file-font/Oleo_Script_Swash_Caps/OleoScriptSwashCaps-Bold.ttf') format('truetype');
+}
+
+.signup-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.signup-container {
+    box-shadow: 0px 4px 10px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.signup-container-2 {
+    flex: 1;
+    background: url('../images/rectangle_63.jpeg') 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-quote {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.signup-container-6 {
+    flex: 1;
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 0 20px 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.signup-logo {
+    font-family: "Oleo Script Swash Caps", cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signup-logo .signup-dest {
+    color: #00ca18;
+}
+
+.signup-logo .signup-destt {
+    color: #1CCBBC;
+}
+
+.signup-create-new-account-title {
+    font-family: 'Abhaya Libre ExtraBold', 'Roboto Condensed';
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.signup-email,
+.signup-password,
+.signup-confirm-password,
+.signup-firstname,
+.signup-lastname {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4E5251;
+}
+
+.signup-rectangle-57,
+.signup-rectangle-58,
+.signup-rectangle-59,
+.signup-rectangle-60,
+.signup-rectangle-61 {
+    border-radius: 8px;
+    border: 1px solid #999999;
+    padding: 10px;
+    width: 100%;
+}
+
+.signup-container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.signup-create-account {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre Medium', 'Roboto Condensed';
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.signup-already-have-an-account,
+.signup-another-method {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #999999;
+}
+
+.signup-social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-social-icons svg {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.signup-social-icons svg:hover {
+    color: #007bff;
+}
+
+.signup-ellipse-10,
+.signup-ellipse-11,
+.signup-ellipse-12 {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-rectangle-57,
+.signup-rectangle-58,
+.signup-rectangle-59,
+.signup-rectangle-60,
+.signup-rectangle-61 {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.signup-container-5 {
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .signup-logo {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .signup-logo {
+        font-size: 8vw;
+    }
+}
