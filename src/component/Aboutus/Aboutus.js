@@ -13,10 +13,10 @@ function Aboutus() {
       <Navbar />
 
       <div className='background'>
-        <img className='image_1' src='Image_1.png' alt='' />
-        <img className='image_2' src='Image_2.png' alt='' />
-        <img className='image_3' src='Image_3.png' alt='' />
-        <img className='image_4' src='Image_4.png' alt='' />
+        <img className='image_1' src='image_1.png' alt='' />
+        <img className='image_2' src='image_2.png' alt='' />
+        <img className='image_3' src='image_3.png' alt='' />
+        <img className='image_4' src='image_4.png' alt='' />
         <img className='img' src='background.png' alt='' />
       </div>
 
@@ -35,9 +35,9 @@ function Aboutus() {
       <div className='member'>
         <h1 className='text-member'>Our team member</h1>
         <div className='image-member'>
-          <img className='image_6' src='Image_7.png' alt='' />
-          <img className='image_7' src='Image_7.png' alt='' />
-          <img className='image_8' src='Image_7.png' alt='' />
+          <img className='image_6' src='image_7.png' alt='' />
+          <img className='image_7' src='image_7.png' alt='' />
+          <img className='image_8' src='image_7.png' alt='' />
         </div>
         <div className='member-info'>
           <div className='member_1'>

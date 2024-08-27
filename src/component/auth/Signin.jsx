@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { auth } from '../../firebase'; // Đảm bảo đường dẫn tới firebase đúng
+import { auth } from '../../firebase'; // Ensure the correct path to your firebase config
 import { FaFacebook, FaGoogle, FaTwitter } from "react-icons/fa";
-import { Link ,useNavigate } from 'react-router-dom';
-import './Signin.css'
+import { Link, useNavigate } from 'react-router-dom';
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
+import './Signin.css';
 
 const SignIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
     const navigate = useNavigate();
     const googleProvider = new GoogleAuthProvider();
-    const [error, setError] = useState('');
 
     const handleEmailSignIn = (e) => {
         e.preventDefault();
@@ -18,7 +19,8 @@ const SignIn = () => {
             .then((userCredential) => {
                 console.log('User signed in:', userCredential.user);
                 setError('');
-                navigate('/'); // Điều hướng đến trang chủ sau khi đăng nhập thành công
+                fetchUserRole(userCredential.user); // Fetch user role after signing in
+                navigate('/'); // Navigate to home page after successful sign-in
             })
             .catch((error) => {
                 console.error('Error signing in with email:', error);
@@ -30,11 +32,29 @@ const SignIn = () => {
         signInWithPopup(auth, googleProvider)
             .then((result) => {
                 console.log('User signed in with Google:', result.user);
-                navigate('/'); // Điều hướng đến trang chủ sau khi đăng nhập thành công
+                fetchUserRole(result.user); // Fetch user role after signing in
+                navigate('/'); // Navigate to home page after successful sign-in
             })
             .catch((error) => {
                 console.error('Error signing in with Google:', error);
             });
+    };
+
+    // Function to fetch the user role from Firestore and log it
+    const fetchUserRole = async (user) => {
+        let role = 'user'; // Default role
+        if (user.email.includes('admin')) {
+            role = 'admin'; // If email contains 'admin', assign the admin role
+        } else {
+            const db = getFirestore();
+            const userDoc = await getDoc(doc(db, 'users', user.uid));
+            if (userDoc.exists()) {
+                role = userDoc.data().role;
+            } else {
+                console.log('No such document!');
+            }
+        }
+        console.log(`User role: ${role}`); // Log the user role
     };
 
     return (
@@ -73,7 +93,6 @@ const SignIn = () => {
                                 name="email"
                                 className="login-rectangle-59"
                                 required
-                                
                             />
                         </div>
                         <div className="login-password">
@@ -111,7 +130,7 @@ const SignIn = () => {
                         <FaTwitter size={32} style={{ margin: "0 10px" }} />
                     </div>
                     <span className="login-new-user">
-                        New user? <Link to="/signup" className='no-underline'><a>Register</a></Link>
+                        New user? <Link to="/signup" className='no-underline'>Register</Link>
                     </span>
                 </div>
             </div>  

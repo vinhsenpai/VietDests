@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Saigon Central Post Office",
+        "translated_name": "Bưu điện trung tâm Sài Gòn",
+        "rating": 4.5,
+        "reviews": 1011,
+        "open_time": "Opens at 07:30 - 18:00",
+        "address":"2 communes in Paris, Ben Nghe, District 1, Ho Chi Minh",
+        "phone":"+84-2839247247",
+        "description":"The Central Post Office in Ho Chi Minh City is a French colonial post office built in the 19th century. The exterior of the Post Office resembles an elaborate train station. Wherever you look, everything is intricately designed and decorated. The dates of the Post Office's construction (1886-1891) are inscribed beneath the large clock over the main entrance. Walk into the Post Office and you'll find a spacious lobby with a classically arching ceiling, round windows, hanging chandeliers, and stunningly gorgeous wall lamps, among other decorative features. Beneath the old map on the wall, there are classic phone booths from which you can make international calls. While visiting the Central Post Office, consider mailing a postcard home.",
+        "ticket_price_adult": "US $5.60",
+        "ticket_price_children": "US $3.74",
+        "city_belong":"Hồ Chí Minh",
+        "image":[{
+            "url": "https://i.pinimg.com/originals/63/36/b5/6336b542dcc829f54b30552f68e01351.jpg"
+        }]
+    },
+    {
+        "name": "Ho Chi Minh's Mausoleum",
+        "translated_name": "Lăng Chủ tịch Hồ Chí Minh",
+        "rating": 4.5,
+        "reviews": 293,
+        "open_time": "Opens at 7:00-17:00",
+        "address":"2 Hung Vuong, Dien Ban, Ba Dinh, Hanoi",
+        "phone":"+84 24 3845 5128",
+        "description":"The Ho Chi Minh Tomb is located in the middle of Ba Dinh Square in Hanoi. It was built to commemorate Ho Chi Minh for future generations to pay their respects.",
+        "ticket_price_adult": "Free",
+        "ticket_price_children": "Free",
+        "city_belong":"Hà Nội",
+        "image":[{
+            "url": "https://i.pinimg.com/originals/43/a1/a7/43a1a7be6b1bbf8b3677847cb033702d.jpg"
+        }]
+    },
+    {
+        "name": "Literature temple",
+        "translated_name": "Lăng Miếu Quốc tử giám",
+        "rating": 4.5,
+        "reviews": 293,
+        "open_time": "Opens at 7:00-17:00",
+        "address":"2 Hung Vuong, Dien Ban, Ba Dinh, Hanoi",
+        "phone":"+84 24 3845 5128",
+        "description":"The Ho Chi Minh Tomb is located in the middle of Ba Dinh Square in Hanoi. It was built to commemorate Ho Chi Minh for future generations to pay their respects.",
+        "ticket_price_adult": "Free",
+        "ticket_price_children": "Free",
+        "city_belong":"Hà Nội",
+        "image":[{
+            "url": "https://i.pinimg.com/originals/43/a1/a7/43a1a7be6b1bbf8b3677847cb033702d.jpg"
+        }]
+    }
+]
