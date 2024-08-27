@@ -29,7 +29,7 @@ function Aboutus() {
           information about the cities and what they have
           so that they can make their decisions.
         </p>
-        <img className='image_5' src='Image_5.png' alt='' />
+        <img className='image_5' src='image_5.png' alt='' />
       </div>
 
       <div className='member'>
