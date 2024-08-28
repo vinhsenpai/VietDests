@@ -46,15 +46,30 @@ const SignIn = () => {
         if (user.email.includes('admin')) {
             role = 'admin'; // If email contains 'admin', assign the admin role
         } else {
-            const db = getFirestore();
-            const userDoc = await getDoc(doc(db, 'users', user.uid));
-            if (userDoc.exists()) {
-                role = userDoc.data().role;
-            } else {
-                console.log('No such document!');
+            try {
+                const db = getFirestore();
+                const userDoc = doc(db, 'users', user.uid);
+                const userSnap = await getDoc(userDoc);
+                
+                if (userSnap.exists()) {
+                    role = userSnap.data().role || 'user'; // Default to 'user' if no role field exists
+                } else {
+                    console.log('No such document!');
+                }
+            } catch (error) {
+                console.error('Error fetching user role:', error);
             }
         }
+        
         console.log(`User role: ${role}`); // Log the user role
+        // You might want to store the role in a global state or pass it to the Navbar directly
+        // Example of setting state in a parent component or using context
+    };
+
+    // Placeholder function for the forgot password functionality
+    const handleForgotPassword = () => {
+        // Add your forgot password logic here
+        console.log('Forgot password clicked');
     };
 
     return (
@@ -112,9 +127,9 @@ const SignIn = () => {
                                 <input type="checkbox" id="remember" name="remember" />
                                 <label htmlFor="remember">Remember Me</label>
                             </div>
-                            <a href="#" className="login-forget-password">
+                            <button type="button" onClick={handleForgotPassword} className="login-forget-password">
                                 Forgot Password?
-                            </a>
+                            </button>
                         </div>
                         <div className="login-container-3">
                             <button type="submit" className="login-account">

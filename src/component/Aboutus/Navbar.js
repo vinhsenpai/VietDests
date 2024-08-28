@@ -1,30 +1,17 @@
-import './Navbar.css';
+import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import { auth } from '../../firebase'; // Đảm bảo đường dẫn tới firebase đúng
 import { signOut } from 'firebase/auth';
+import { useAuth } from '../auth/AuthContext'; // Adjust the path as needed
+import { auth } from '../../firebase';
+import './Navbar.css';
 
 function Navbar() {
-    const [user, setUser] = useState(null); // State để lưu thông tin người dùng
+    const { authUser, role } = useAuth(); // Use the auth context
     const navigate = useNavigate();
-
-    useEffect(() => {
-        // Lắng nghe sự thay đổi trạng thái đăng nhập
-        const unsubscribe = auth.onAuthStateChanged((user) => {
-            if (user) {
-                setUser(user); // Người dùng đã đăng nhập
-            } else {
-                setUser(null); // Người dùng đã đăng xuất
-            }
-        });
-
-        // Cleanup subscription on unmount
-        return () => unsubscribe();
-    }, []);
 
     const handleLogout = () => {
         signOut(auth).then(() => {
-            navigate('/signin'); // Điều hướng đến trang đăng nhập sau khi đăng xuất
+            navigate('/signin'); // Redirect to sign-in page after sign out
         }).catch((error) => {
             console.error("Error signing out:", error);
         });
@@ -40,10 +27,16 @@ function Navbar() {
                 <Link to="/" className='no-underline'><p className='button'>HOME</p></Link>
                 <Link to="/aboutus" className='no-underline'><p className='button'>ABOUT US</p></Link>
                 <Link to="/search" className='no-underline'><p className='button'>ALL TOURS</p></Link>
+
+                {/* Conditionally render Dashboard link if user is admin */}
+                {role === 'admin' && (
+                    <Link to="/dashboard" className='no-underline'><p className='button'>DASHBOARD</p></Link>
+                )}
+
                 <div className='log_re'>
-                    {user ? (
+                    {authUser ? (
                         <>
-                            <p>WELCOME, {user.displayName || "User"}</p>
+                            <p>WELCOME, {authUser.displayName || "User"}</p>
                             <p className='line'>&#124;</p>
                             <p onClick={handleLogout} className='logout-button'>LOGOUT</p>
                         </>
