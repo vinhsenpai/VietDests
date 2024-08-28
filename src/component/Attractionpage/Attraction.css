@@ -1,0 +1,951 @@
+.attraction-page .rectangle-94 {
+    border-radius: 5px;
+    background: #1A9EA8;
+    position: absolute;
+    left: 24px;
+    top: 70px;
+    width: 50px;
+    height: 41px;
+}
+
+.attraction-page .saigon-central-post-office {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    /* Center align the text */
+}
+
+.attraction-page .container {
+    position: relative;
+    margin-right: 12px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3.125;
+    color: #FFFFFF;
+}
+
+.container-sub2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.333;
+}
+
+.attraction-page .reviews {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    /* Center align the text */
+}
+
+.attraction-page .container-19 {
+    margin: 0 3px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-5 {
+    margin-right: 15.4px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.attraction-page .buin-trung-tm-si-gn {
+    margin: 6px 0 44px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 3.333;
+    color: #000000;
+}
+
+.attraction-page .container-7 {
+    margin: 0 6px 17px 6px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .vector-7 {
+    background: #D9D9D9;
+    margin: 0 0 11px 9px;
+    width: 792px;
+    height: 0px;
+}
+
+.attraction-page .rectangle-126 {
+    background: url('../images/rectangle_126.png') 50% / cover no-repeat;
+    margin: 6px 4px 6px 0;
+    width: 38px;
+    height: 38px;
+}
+
+.attraction-page .opening-time {
+    margin-right: 4.4px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #00CA18;
+}
+
+.attraction-page .opens-at-07301800 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #000000;
+}
+
+.attraction-page .container-2 {
+    margin: 0 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .rectangle-127 {
+    background: url('../images/rectangle_127.png') 50% / cover no-repeat;
+    width: 47px;
+    height: 50px;
+}
+
+.attraction-page .address-2-communes-in-paris-ben-nghe-district-1-ho-chi-minh {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #000000;
+}
+
+.address-2-communes-in-paris-ben-nghe-district-1-ho-chi-minh-sub1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.333;
+    color: #00CA18;
+}
+
+.attraction-page .container-16 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .rectangle-128 {
+    background: url('../images/rectangle_128.png') 50% / cover no-repeat;
+    margin: 4px 4px 8px 0;
+    width: 38px;
+    height: 38px;
+}
+
+.attraction-page .phone-842839247247 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #000000;
+}
+
+.phone-842839247247-sub1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.333;
+    color: #00CA18;
+}
+
+.attraction-page .container-8 {
+    margin: 0 5px 27px 5px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .vector-8 {
+    background: #D9D9D9;
+    margin: 0 0 15px 9px;
+    width: 792px;
+    height: 0px;
+}
+
+.attraction-page .sai-gon-central-post-office-highlights-must-see-features-and-attractions {
+    margin: 0 6px 11px 6px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #000000;
+}
+
+.attraction-page .vector-9 {
+    background: #D9D9D9;
+    margin: 0 0 15px 9px;
+    width: 792px;
+    height: 0px;
+}
+
+.attraction-page .the-central-post-office-in-ho-chi-minh-city-is-afrench-colonial-post-office-built-in-the-19-th-century-the-exterior-of-the-post-office-resembles-an-elaborate-train-station-wherever-you-look-everything-is-intricately-designed-and-decorated-the-dates-of-the-post-offices-construction-18861891-are-inscribed-beneath-the-large-clock-over-the-main-entrance-walk-into-the-post-office-and-youll-find-aspacious-lobby-with-aclassically-arching-ceiling-round-windows-hanging-chandeliers-and-stunningly-gorgeous-wall-lamps-among-other-decorative-features-beneath-the-old-map-on-the-wall-there-are-classic-phone-booths-from-which-you-can-make-international-calls-while-visiting-the-central-post-office-consider-mailing-apostcard-home {
+    margin: 0 27.9px 21px 9px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 3.333;
+    color: #000000;
+}
+
+.attraction-page .vector-10 {
+    background: #D9D9D9;
+    margin: 0 0 33px 9px;
+    width: 792px;
+    height: 0px;
+}
+
+.attraction-page .explore-sai-gon-central-post-office-through-map {
+    margin: 0 9px 445px 9px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #000000;
+}
+
+.attraction-page .vector-11 {
+    background: #D9D9D9;
+    margin: 0 0 13px 9px;
+    width: 792px;
+    height: 0px;
+}
+
+.attraction-page .attraction-tickets {
+    margin: 0 9px 14px 9px;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #000000;
+}
+
+.attraction-page .rectangle-130 {
+    background: #1A9EA8;
+    position: absolute;
+    top: 74px;
+    right: 28px;
+    width: 111px;
+    height: 40px;
+}
+
+.attraction-page .rectangle-131 {
+    background: #1A9EA8;
+    position: absolute;
+    right: 28px;
+    bottom: 68px;
+    width: 111px;
+    height: 40px;
+}
+
+.attraction-page .adult-ticket-age-12-and-over-refers-to-travelers-ages-on-the-date-of-travel-age-is-calculated-according-to-date-of-birth {
+    margin-bottom: 16px;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #000000;
+}
+
+.adult-ticket-age-12-and-over-refers-to-travelers-ages-on-the-date-of-travel-age-is-calculated-according-to-date-of-birth-sub1 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.333;
+}
+
+.adult-ticket-age-12-and-over-refers-to-travelers-ages-on-the-date-of-travel-age-is-calculated-according-to-date-of-birth {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.333;
+}
+
+.attraction-page .us-560 {
+    margin-right: 35.7px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #FF0000;
+}
+
+.attraction-page .book-now {
+    position: relative;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #FFFFFF;
+}
+
+.attraction-page .container {
+    margin: 0 8.4px 47px 8.4px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .vector-12 {
+    margin-bottom: 9px;
+    width: 735px;
+    height: 0px;
+}
+
+.attraction-page .child-ticket-age-211-years-old-refers-to-travelers-ages-on-the-date-of-travel-age-is-calculated-according-to-date-of-birth {
+    margin: 0 90.1px 30px 0;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 3.125;
+    color: #000000;
+}
+
+.child-ticket-age-211-years-old-refers-to-travelers-ages-on-the-date-of-travel-age-is-calculated-according-to-date-of-birth {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.333;
+}
+
+.attraction-page .us-374 {
+    margin: 62px 37.6px 0 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #FF0000;
+}
+
+.attraction-page .book-now-1 {
+    position: relative;
+    margin-top: 62px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #FFFFFF;
+}
+
+.attraction-page .container-11 {
+    margin-right: 8.4px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-15 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-1 {
+    background: #F7F3F4;
+    position: relative;
+    margin-left: 9px;
+    display: flex;
+    padding: 0 28px 63px 29px;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-18 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-10 {
+    border-radius: 0 0 8px 8px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    padding: 16px 27px 23px 18px;
+    box-sizing: border-box;
+}
+
+.attraction-page .image {
+    background: url('../images/image.png') 50% / cover no-repeat;
+    position: absolute;
+    left: 50%;
+    bottom: 548px;
+    translate: -50% 0;
+    width: 847px;
+    height: 361px;
+}
+
+
+.attraction-page .container-9 {
+    background: #C3F7E7;
+    position: relative;
+    margin-bottom: 52px;
+    display: flex;
+    padding: 255px 0 46px 0;
+    width: 1442px;
+    box-sizing: border-box;
+}
+
+.attraction-page .vector-3 {
+    margin-bottom: 45px;
+    width: 1235.5px;
+    height: 0px;
+}
+
+.attraction-page .contact-us {
+    margin-right: 15px;
+    width: 175px;
+    overflow-wrap: break-word;
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.75;
+    color: #000000;
+}
+
+.attraction-page .about {
+    overflow-wrap: break-word;
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.75;
+    color: #000000;
+}
+
+.attraction-page .payment-methods {
+    overflow-wrap: break-word;
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.75;
+    color: #000000;
+}
+
+.attraction-page .container-4 {
+    margin: 0 98.5px 41px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1122px;
+    box-sizing: border-box;
+}
+
+.attraction-page .hotline-0909456789-social-media {
+    margin: 0 33px 20.1px 0;
+    width: 250px;
+    overflow-wrap: break-word;
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.hotline-0909456789-social-media-sub12 {
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.333;
+    color: #757575;
+}
+
+.hotline-0909456789-social-media-sub11 {
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.333;
+    color: #757575;
+}
+
+.hotline-0909456789-social-media {
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.333;
+}
+
+.attraction-page .about-us-1 {
+    margin: 3px 0 53.1px 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Abhaya Libre SemiBold', 'Roboto Condensed';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #757575;
+}
+
+.attraction-page .rectangle-34 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_34.png') 50% / cover no-repeat;
+    margin-bottom: 21.9px;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .rectangle-38 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_38.png') 50% / cover no-repeat;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .container-21 {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 62px;
+    box-sizing: border-box;
+}
+
+.attraction-page .rectangle-35 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_35.png') 50% / cover no-repeat;
+    margin-bottom: 21.9px;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .rectangle-39 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_39.png') 50% / cover no-repeat;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .container-23 {
+    margin-right: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 62px;
+    box-sizing: border-box;
+}
+
+.attraction-page .rectangle-36 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_36.png') 50% / cover no-repeat;
+    margin-bottom: 21.9px;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .rectangle-40 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_40.png') 50% / cover no-repeat;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .container-12 {
+    margin-right: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 62px;
+    box-sizing: border-box;
+}
+
+.attraction-page .rectangle-37 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_37.png') 50% / cover no-repeat;
+    margin-bottom: 21.9px;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .rectangle-41 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_41.png') 50% / cover no-repeat;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .container-20 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 62px;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-13 {
+    display: flex;
+    flex-direction: row;
+    width: 306px;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-6 {
+    margin: 0 79.5px 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1141px;
+    box-sizing: border-box;
+}
+
+.attraction-page .ellipse-7 {
+    border-radius: 25px;
+    background: url('../images/ellipse_7.png') 50% / cover no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.attraction-page .ellipse-8 {
+    border-radius: 25px;
+    background: url('../images/ellipse_8.png') 50% / cover no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.attraction-page .ellipse-9 {
+    border-radius: 25px;
+    background: url('../images/ellipse_9.png') 50% / cover no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.attraction-page .container-24 {
+    margin-bottom: 4.1px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    width: 198px;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .rectangle-42 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_42.png') 50% / cover no-repeat;
+    margin-right: 20px;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .rectangle-43 {
+    border-radius: 3.6px;
+    border: 0.7px solid #817B7B;
+    background: url('../images/rectangle_43.png') 50% / cover no-repeat;
+    width: 62px;
+    height: 32.1px;
+}
+
+.attraction-page .container-14 {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    width: 144px;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-17 {
+    margin: 0 8px 65.9px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 986px;
+    box-sizing: border-box;
+}
+
+.attraction-page .vector-4 {
+    width: 1235.5px;
+    height: 0px;
+}
+
+.attraction-page .group-8 {
+    margin: 0 103.5px 0 103px;
+    display: flex;
+    flex-direction: column;
+    width: 1235.5px;
+    box-sizing: border-box;
+}
+
+.attraction-page .container-22 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1442px;
+    height: fit-content;
+    box-sizing: border-box;
+    padding-top: 0;
+    /* Adjust padding to ensure the correct image alignment */
+}
+
+
+.attraction-page .rectangle-123 {
+    border-radius: 8px 8px 0 0;
+    background: url('../images/rectangle_123.jpeg') 50% / cover no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+}
+
+.attraction-page .image-1 {
+    border-radius: 8px 8px 0 0;
+    background: url('../images/image_3.jpeg') 50% / cover no-repeat;
+    position: relative;
+    width: 846px;
+    height: 422px;
+}
+
+.attraction-page .image-2 {
+    border-radius: 8px 8px 0 0;
+    background: url('../images/image_2.jpeg') 50% / cover no-repeat;
+    position: relative;
+    width: 846px;
+    height: 422px;
+}
+
+
+.attraction-page .component-3 {
+    background: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    top: 119px;
+    translate: -50% 0;
+    display: flex;
+    flex-direction: row;
+    width: 846px;
+    box-sizing: border-box;
+}
+
+.attraction-page .viet-dests {
+    margin-right: 42.5px;
+    width: 246px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 0.781;
+    color: #000000;
+}
+
+.viet-dests-sub1255 {
+    font-family: 'Oleo Script Swash Caps';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.333;
+    color: #1CCBBC;
+}
+
+.viet-dests {
+    font-family: 'Oleo Script Swash Caps';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.333;
+    color: #00CA18;
+}
+
+.attraction-page .home {
+    margin-right: 34.5px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 3.333;
+    color: #000000;
+}
+
+.attraction-page .about-us {
+    margin-right: 34.3px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 3.333;
+    color: #000000;
+}
+
+.attraction-page .all-tours {
+    margin-right: 44.9px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 3.333;
+    color: #000000;
+}
+
+.attraction-page .login {
+    margin-right: 8.8px;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 3.333;
+    color: #000000;
+}
+
+.attraction-page .line-1 {
+    background: #000000;
+    margin: 9px 7px 9px 0;
+    width: 32px;
+    height: 0px;
+}
+
+.attraction-page .register {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 3.333;
+    color: #000000;
+}
+
+.attraction-page .container-3 {
+    margin: 6px 0 29px 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.attraction-page .group-9 {
+    background: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 29px 37.2px 6px 48px;
+    box-sizing: border-box;
+}
+
+.attraction-page {
+    background: #FFFFFF;
+    display: flex;
+    padding: 287px 0 56px 0;
+    width: 1440px;
+    box-sizing: border-box;
+}
+
+
+
+
+.footer {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.contact {
+    padding-right: 300px;
+}
+
+.about {
+    text-align: center;
+}
+
+.payment {
+    padding-left: 300px;
+}
+
+.icon {
+    margin-top: 20px;
+    display: flex;
+}
+
+.icon-img {
+    padding-right: 15px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.icon-payment {
+    width: 55px;
+    height: 29px;
+    border: 0.5px solid gainsboro;
+    border-radius: 3.56px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.payment-space {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+
+}
+
+.payment-text {
+    text-align: center;
+}

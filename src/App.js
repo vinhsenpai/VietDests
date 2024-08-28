@@ -7,7 +7,7 @@ import Searchpage from "./component/Search/Searchpage.js";
 import Signup from "./component/Signup/Signup.js";
 import Login from "./component/Signup/login.js";
 import City from "./component/Citypage/City.js";
-
+import Attraction from "./component/Attractionpage/Attraction.js";
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +18,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/city" element={<City />} />
+        <Route path="/attraction" element={<Attraction />} />
       </Routes>
     </BrowserRouter>
   );

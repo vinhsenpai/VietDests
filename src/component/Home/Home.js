@@ -15,6 +15,7 @@ function Home() {
                     <Link to="/aboutus"><p className='button'>ABOUT US</p></Link>
                     <Link to="/search"><p className='button'>ALL TOURS</p></Link>
                     <Link to="/City"><p className='button'>TEST</p></Link>
+                    <Link to="/Attraction"><p className='button'>Attraction</p></Link>
                     <div className='log_re'>
                         <Link to="/Login"><p>LOGIN</p></Link>
                         <p className='line'>&#124;</p>
