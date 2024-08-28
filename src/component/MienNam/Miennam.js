@@ -1,6 +1,7 @@
 import Navbar from "../Aboutus/Navbar.js";
 import Footer from "../Aboutus/Footer.js";
 import './Miennam.css'
+import {Link} from 'react-router-dom';
 
 function Miennam() {
     return (
@@ -14,7 +15,7 @@ function Miennam() {
                 <h1 className="divided-area-title">---Southeast region of Vietnam---</h1>
                 <h1 className="divided-area-title">Đông Nam Bộ</h1>
                 <div className="divided-area">
-                    <button className="button-city">Hồ Chí Minh</button>
+                    <Link to=""><button className="button-city">Hồ Chí Minh</button></Link>
                     <button className="button-city">Bà Rịa - Vũng Tàu</button>
                     <button className="button-city">Bình Dương</button>
                     <button className="button-city">Bình Phước</button>

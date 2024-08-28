@@ -6,6 +6,7 @@ import Home from './component/Home/Home.js';
 import Searchpage from './component/Search/Searchpage.js';
 import SignIn from './component/auth/Signin.jsx';
 import SignUp from './component/auth/Signup.jsx';
+import City from './component/Citypage/City.js';
 import { AuthProvider } from '../src/component/auth/AuthContext.jsx'; // Import the AuthProvider
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                     <Route path='/search' element={<Searchpage />} />
                     <Route path='/signin' element={<SignIn />} />
                     <Route path='/signup' element={<SignUp />} />
+                    <Route path='/hochiminh' element={<City />}/>
                 </Routes>
             </BrowserRouter>
         </AuthProvider>

@@ -1,0 +1,396 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+    /* Light gray background similar to Trip.com */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    /* White background for the main container */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Header Section */
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 750px;
+    background-image: url('../images/rectangle_64.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%
+}
+
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.content h2 {
+    color: #0066cc;
+    /* Trip.com uses blue for headers */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0066cc;
+    /* Blue underline */
+    padding-bottom: 10px;
+}
+
+.content p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+}
+
+.popular-attractions h3 {
+    text-align: left;
+    color: #0066cc;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.attraction-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.attraction-item {
+    flex: 1;
+    background: #f8f8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+.attraction-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.attraction-item h4 {
+    color: #33333;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.saigon-post {
+    background-image: url('../images/rectangle_19.jpeg');
+}
+
+.reunification-palace {
+    background-image: url('../images/rectangle_21.jpeg');
+}
+
+.notre-dame {
+    background-image: url('../images/rectangle_64.jpeg');
+}
+
+/* Popular Tours Section */
+/* Popular Tours Section */
+.popular-tours {
+    margin-top: 50px;
+}
+
+.popular-tours h3 {
+    color: #0066cc;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.tour-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tour-item {
+    flex: 1;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.tour-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tour-item h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tour-item p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tour-item .rating {
+    font-weight: bold;
+    color: #ffd700;
+    /* Gold star color */
+    margin-top: auto;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.tour-1 {
+    background-image: url('../images/rectangle_32.jpeg');
+}
+
+.tour-2 {
+    background-image: url('../images/rectangle_32.jpeg');
+}
+
+.tour-3 {
+    background-image: url('../images/rectangle_32.jpeg');
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+    color: white;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+.footer-column p {
+    color: #ccc;
+    margin: 5px 0;
+}
+
+.footer-column a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons .facebook,
+.social-icons .instagram,
+.social-icons .tiktok {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-icons .facebook {
+    background-image: url('../images/ellipse_10.png');
+}
+
+.social-icons .instagram {
+    background-image: url('../images/ellipse_8.png');
+}
+
+.social-icons .tiktok {
+    background-image: url('../images/ellipse_9.png');
+}
+
+.payment-methods img {
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    background: #fff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+    color: #333;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.footer-column p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.footer-column a {
+    color: #000;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons .facebook,
+.social-icons .instagram,
+.social-icons .tiktok {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.social-icons .facebook {
+    background-image: url('../images/ellipse_10.png');
+}
+
+.social-icons .instagram {
+    background-image: url('../images/ellipse_8.png');
+}
+
+.social-icons .tiktok {
+    background-image: url('../images/ellipse_9.png');
+}
+
+.payment-methods img {
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.footer {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.contact {
+    padding-right: 300px;
+}
+
+.about {
+    text-align: center;
+}
+
+.payment {
+    padding-left: 300px;
+}
+
+.icon {
+    margin-top: 20px;
+    display: flex;
+}
+
+.icon-img {
+    padding-right: 15px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.icon-payment {
+    width: 55px;
+    height: 29px;
+    border: 0.5px solid gainsboro;
+    border-radius: 3.56px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.payment-space {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+
+}
+
+.payment-text {
+    text-align: center;
+}
