@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Link Product
 
-Pass link: https://vercel.com/vinhs-projects-ae45c07a/viet-dests
+https://viet-dests.vercel.app/
 
 ## Available Scripts
 
