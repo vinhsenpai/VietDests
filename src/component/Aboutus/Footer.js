@@ -1,5 +1,6 @@
 import './Footer.css'
-
+import {Link} from 'react-router-dom'
+ 
 function Footer() {
     return (
         <div className='footer'>
@@ -15,7 +16,7 @@ function Footer() {
             </div>
             <div className='about'>
                 <h2>About</h2>
-                <p>About us</p>
+                <Link className='no-underline' to="/aboutus"><p>About us</p></Link>
             </div>
             <div className='payment'>
                 <h2 className='patment-text'>Payment methods</h2>

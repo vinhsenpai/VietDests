@@ -94,9 +94,9 @@ function Home() {
                             <h3>Popular Tours</h3>
                             <div class="tour-list">
                                 <div class="tour-item tour-1">
-                                    <h4>
+                                    <Link className='no-underline' to='/tourpage1'><h4>
                                         Mekong Delta 1 Day Tour | Option: Small Group - Better Lunch
-                                    </h4>
+                                    </h4></Link>
                                     <p class="rating">⭐ 4.5/5 | 900+ Booked</p>
                                     <p>Departs from Ho Chi Minh City</p>
                                 </div>

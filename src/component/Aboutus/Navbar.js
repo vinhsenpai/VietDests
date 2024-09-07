@@ -42,9 +42,9 @@ function Navbar() {
                         </>
                     ) : (
                         <>
-                            <Link to="/signin" className='no-underline'><p>LOGIN</p></Link>
+                            <Link to="/signin" className='no-underline'><p className='button'>LOGIN</p></Link>
                             <p className='line'>&#124;</p>
-                            <Link to="/signup" className='no-underline'><p>REGISTER</p></Link>
+                            <Link to="/signup" className='no-underline'><p className='button'>REGISTER</p></Link>
                         </>
                     )}
                 </div>
