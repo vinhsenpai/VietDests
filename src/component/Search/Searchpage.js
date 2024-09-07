@@ -3,10 +3,11 @@ import './Searchbar.css'
 import '../Aboutus/Footer.css'
 import Footer from '../Aboutus/Footer.js'
 import Navbar from '../Aboutus/Navbar.js'
+import { Link } from 'react-router-dom'
 
 function Searchpage() {
     return (
-        <div>
+        <div className='design-page'>
             <Navbar />
 
             <div className='Searchbar'>
@@ -51,7 +52,7 @@ function Searchpage() {
                         <div className='tour-product'>
                             <img className='tour-pic-search' src='nhatrang.png' alt=''></img>
                             <div className='tour-info'>
-                                <h2 className='tour-title'>7 Days 6 Night Ho Chi Minh To Mui Ne, Da Lat And Nha Trang Trip</h2>
+                                <Link to='/tourpage1'><h2 className='tour-title'>7 Days 6 Night Ho Chi Minh To Mui Ne, Da Lat And Nha Trang Trip</h2></Link>
                                 <p className='tour-available'>Available from Aug 17, 2024</p>
                                 <div className='tour-rate'>
                                     <div className='border-rate'>

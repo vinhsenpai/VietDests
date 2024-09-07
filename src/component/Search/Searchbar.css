@@ -1,5 +1,6 @@
 .search-space{
     height: 153px;
+    background-color: white;
 }
 .title-link{
     padding-left: 170px;
@@ -179,4 +180,7 @@
     flex-direction: column;
     margin-top: 10px;
     gap:20px
+}
+.design-page{
+   background-color: white;  
 }

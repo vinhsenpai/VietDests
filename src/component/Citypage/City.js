@@ -1,36 +1,12 @@
 import React from "react";
 import "./City.css";
-import { Link } from "react-router-dom";
+import Navbar from "../Aboutus/Navbar";
+import Footer from "../Aboutus/Footer";
 
 function City() {
   return (
     <div>
-      <div className="Navbar">
-        <div className="logo">
-          <span className="firstlogo">Viet</span>
-          <span className="secondlogo">Dests</span>
-        </div>
-        <div className="button_space">
-          <Link to="/">
-            <p className="button">HOME</p>
-          </Link>
-          <Link to="/aboutus">
-            <p className="button">ABOUT US</p>
-          </Link>
-          <Link to="/search">
-            <p className="button">ALL TOURS</p>
-          </Link>
-          <div className="log_re">
-            <Link to="/Login">
-              <p>LOGIN</p>
-            </Link>
-            <p className="line">&#124;</p>
-            <Link to="/Signup">
-              <p>REGISTER</p>
-            </Link>
-          </div>
-        </div>
-      </div>
+      <Navbar />
       <div class="header">
         <h1>Ho Chi Minh City</h1>
       </div>
@@ -101,37 +77,7 @@ function City() {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <div className="contact">
-          <h2>Contact us</h2>
-          <p>Hotline: 0909 - 4567 - 89</p>
-          <p>Social media:</p>
-          <div className="icon">
-            <img className="icon-img" src="facebook.png" alt="" />
-            <img className="icon-img" src="insta.png" alt="" />
-            <img className="icon-img" src="tiktok.png" alt="" />
-          </div>
-        </div>
-        <div className="about">
-          <h2>About</h2>
-          <p>About us</p>
-        </div>
-        <div className="payment">
-          <h2 className="patment-text">Payment methods</h2>
-          <div className="payment-space">
-            <img className="icon-payment" src="AlipayHK.png" alt="" />
-            <img className="icon-payment" src="americanexpress.png" alt="" />
-            <img className="icon-payment" src="googlepay.png" alt="" />
-            <img className="icon-payment" src="samsungpay.png" alt="" />
-            <img className="icon-payment" src="wechatpay.png" alt="" />
-            <img className="icon-payment" src="applepay.png" alt="" />
-            <img className="icon-payment" src="mastercard.png" alt="" />
-            <img className="icon-payment" src="visa.png" alt="" />
-            <img className="icon-payment" src="paypal.png" alt="" />
-            <img className="icon-payment" src="gcash.png" alt="" />
-          </div>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 }

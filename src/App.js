@@ -7,6 +7,10 @@ import Searchpage from './component/Search/Searchpage.js';
 import SignIn from './component/auth/Signin.jsx';
 import SignUp from './component/auth/Signup.jsx';
 import City from './component/Citypage/City.js';
+import MienNam from './component/MienNam/Miennam.js'
+import MienBac from './component/MienBac/Mienbac.js'
+import MienTrung from './component/MiienTrung/Mientrung.js'
+import Tourpage from './component/Tour/Tourpage.js';
 import { AuthProvider } from '../src/component/auth/AuthContext.jsx'; // Import the AuthProvider
 
 function App() {
@@ -20,6 +24,11 @@ function App() {
                     <Route path='/signin' element={<SignIn />} />
                     <Route path='/signup' element={<SignUp />} />
                     <Route path='/hochiminh' element={<City />}/>
+                    <Route path='/miennam' element={<MienNam />}/>
+                    <Route path='/mienbac' element={<MienBac />}/>
+                    <Route path='/mientrung' element={<MienTrung />}/>
+                    <Route path='/hochiminh' element={<City />}/>
+                    <Route path='/tourpage1' element={<Tourpage />}/>
                 </Routes>
             </BrowserRouter>
         </AuthProvider>
