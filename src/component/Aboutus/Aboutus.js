@@ -35,9 +35,9 @@ function Aboutus() {
       <div className='member'>
         <h1 className='text-member'>Our team member</h1>
         <div className='image-member'>
-          <img className='image_6' src='image_7.png' alt='' />
+          <img className='image_6' src='teammate1.jpg' alt='' />
           <img className='image_7' src='image_7.png' alt='' />
-          <img className='image_8' src='image_7.png' alt='' />
+          <img className='image_8' src='teammate2.jpg' alt='' />
         </div>
         <div className='member-info'>
           <div className='member_1'>
